@@ -20,7 +20,7 @@ from django.urls import include, path
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("", include("home.urls")),  # Redirect root URL to home app
+    # path("", include("home.urls")),  # Redirect root URL to home app
     # path("usuarios/", include("usuarios.urls")),
     # path("talla/", include("talla.urls")),
     # path("pedido/", include("pedido.urls")),
